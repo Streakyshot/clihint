@@ -23,6 +23,13 @@ from cheats.programming import (
     python_cheats10
 )
 
+from cheats.programming.go_lang import (
+    go_lang1,
+    go_lang2,
+    go_lang3,
+    go_lang4
+)
+
 def load_cheat_modules():
     all_python = (
         python_cheats1.cheats + python_cheats2.cheats + python_cheats3.cheats +
@@ -31,8 +38,13 @@ def load_cheat_modules():
         python_cheats10.cheats
     )
 
+    all_go = (
+        go_lang1.cheats + go_lang2.cheats + go_lang3.cheats + go_lang4.cheats
+    )
+
     return {
         "Python Programming": all_python,
+        "Go Programming": all_go,
         "Cyber Recon": cyber_recon.cheats,
         "Payload Crafting": payload_crafting.cheats,
         "Git & Version Control": git_version.cheats,

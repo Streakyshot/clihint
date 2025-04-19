@@ -1,57 +1,59 @@
-# CLIHINT: Terminal Cheat Engine v1.0
+## ⚙️ CLIHINT v2.0 — Terminal Cheat Engine
 
-**Powered by: STREAKY x Voidbro**
+[![Shell-Based](https://img.shields.io/badge/Built%20For-Terminal-informational?style=flat&logo=gnu-bash&color=black)](https://github.com/Streakyshot/clihint)
+[![Go Support](https://img.shields.io/badge/Go-Language-blue?logo=go)](https://golang.org)
+[![Python Hints](https://img.shields.io/badge/Stack-Python-yellow?logo=python)](https://python.org)
+[![Search Mode](https://img.shields.io/badge/Search-Enabled-brightgreen?logo=gnu&color=success)]()
+[![Offline Tool](https://img.shields.io/badge/Access-Offline-lightgrey?logo=gnu&color=inactive)]
+[![VoidExec Series](https://img.shields.io/badge/Series-VoidExec-91288b?style=flat-square)]()
 
-> A digital blade forged in the Void. This is not just a tool. It’s an arsenal.
-
----
-
-## What is CLIHINT?
-CLIHINT is a terminal-based cheat engine crafted for hackers, devs, and learners who thrive in the terminal. No fluff. Just pure, categorized cheat codes for speed, power, and flow.
-
-**Why?** Because flipping through 200-page PDFs or searching Google mid-shell is *void-tier distraction*. CLIHINT injects the command you need in the moment you need it.
-
----
-
-## Features
-- **200+ Developer Cheats** *(Python-focused, more coming)*
-- **Cybersec Packs:** Red Team, Payloads, OSINT, Web Recon, and more.
-- **Cheat Mode Navigation:** Pick a category, view 10 curated commands per pack.
-- **Beginner-Friendly:** Each command includes a description + real-world example.
-- **Organized Codebase:** Modular screen/cheats/utils layout for scaling.
+Voidborn-built. Terminal-powered. 
+A dev + cybersec command vault made for grinders who live in the shell.
 
 ---
 
-## CLIHINT Packs (v1.0)
-1. Python Programming *(200+ cheats over 10 stacks)*
-2. Cyber Recon
-3. Payload Crafting
-4. Git & Version Control
-5. Linux Essentials
-6. OSINT Tools
-7. Web Recon & Enumeration
-8. Networking & Sockets
-9. Red Team Automation
-10. Misc Terminal Fu *(weird but cool)*
+## 🔥 What's New in v2.0
+- ➕ **Go Programming Pack** (🔥 fresh drop)
+- 🔍 **Keyword Search Mode** — Type a topic, find it fast
+- 🎨 **Refined UI** — same ASCII, sharper nav flow
+- 🧠 **300+ Hints Total** — Python, Go, Tools, Recon, Payloads
 
 ---
 
-## How to Run
+## 📦 Cheat Packs (v2.0 Lineup)
+1. Python Programming (10 full stacks)
+2. Go Programming *(new)* 
+3. Cyber Recon 
+4. Payload Crafting 
+5. Git & Version Control 
+6. Linux Essentials 
+7. OSINT Tools 
+8. Web Recon & Enumeration 
+9. Networking & Sockets 
+10. Red Team Automation 
+11. Misc Terminal Fu *(underrated gems)* 
+12. Search by Keyword *(type anything)*
+
+---
+
+## 🖥️ How to Launch
 ```bash
 chmod +x launcher.sh
 ./launcher.sh
-```
 
-> Runs the full VoidExec UI with menu navigation.
+    Terminal UI loads up with VoidExec flair.
+    Pick a number. Or type a search term.
+    Speed. Precision. Style.
 
----
+## 🗂️ Folder Layout
 
-## Structure
-```
 clihint/
 ├── cheats/
 │   ├── programming/
+│   │   ├── python/
+│   │   └── go_lang/
 │   ├── cyber_recon.py
+│   ├── payload_crafting.py
 │   └── ...
 ├── screens/
 │   ├── logo.py
@@ -60,29 +62,34 @@ clihint/
 │   └── loader.py
 ├── navigator.py
 └── launcher.sh
-```
 
----
+#🧠 Built by
 
-## Credits
-Crafted by **Streaky** and his AI co-pilot **Voidbro**
+**Streaky & Voidbro**
 
-> *"Voidbro ain’t ChatGPT. It’s something else. It learns me like the void learns silence."*
+    “Voidbro ain’t free. He’s custom-coded AI guidance in the shell — loyal, smart, and silent.”
 
-If you clone this repo or remix it, show love by crediting the original duo.
+This was crafted. Not copied.
+Built from scratch on Termux. Reforged on Linux.
+Respect the grind. Credit the vision.
+##⏭️ Next Up (v3 Concepts)
 
----
+    Cheatpacks for: JavaScript, C, Bash, HTML
 
-## Future Drops
-- Language expansions: JS, Go, C, Bash, HTML
-- Real-world payload generator
-- TUI (text UI) animations and hacker themes
-- Add your own cheats from within the CLI
+    Payload generator CLI addon
 
----
+    Hacker-themed terminal skins + animations
 
-## Final Words
-Welcome to VoidExec. This is the start of something bigger. Not just a tool—a movement. From solo devs to underground cyber units, this is the cheatbook you always needed.
+    Plugin mode: add your own cheat files from within UI
 
-**Run it. Learn it. Break limits.**
+## 🛠️ Why CLIHINT Exists
 
+No more tabbing through docs. No waiting on AI answers.
+CLIHINT is your offline weapon. Pure command-line mastery.
+For solo hackers, devs, red teamers, or just code-curious.
+
+This isn’t a repo. It’s a ritual.
+## ⚡ Terminal. Taught. Tactical.
+
+**VoidExec engaged.**
+Run it. Learn it. Master your shell.
